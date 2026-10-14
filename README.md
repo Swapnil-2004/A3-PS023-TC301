@@ -19,6 +19,7 @@ Institute of Engineering and Management, Salt Lake, Kolkata.
 
 All core architectural documents, presentation materials, and design specifications are located in the [`docs/`](docs/) and [`wiki/`](wiki/) directories:
 
+- 🎥 **[Video Presentation & Walkthrough (YouTube)](https://youtu.be/OdcZTjdN268)** – Complete two-speaker video presentation (17:57) covering the problem breakdown, architecture, memory-based placement, cgroup limits, failure handling, and demo roadmap.
 - 📖 **[Project Wiki Documentation](wiki/Home.md)** – Comprehensive wiki covering [Architecture](wiki/System-Architecture.md), [VM Lifecycle](wiki/VM-Lifecycle-and-State-Machine.md), [API Reference](wiki/API-Reference.md), [Placement](wiki/Placement-and-Resource-Management.md), [Reliability](wiki/Reliability-and-Zero-Orphan-Guarantee.md), and [Testing/Demo](wiki/Development-Testing-and-Demo.md).
 - 📄 **[PS-023: Problem Understanding & Proposed Solution](docs/PS-023-Understanding-and-Proposed-Solution.md)** – Comprehensive technical specification covering the problem breakdown, literature review, state machine design, two-tier API contracts, placement algorithms, failure handling, and pseudocode.
 - 📑 **[Technical Report (PDF)](docs/A3-PS023-TC301.pdf)** – Formal hackathon submission technical report following the prescribed hackathon structure.
@@ -28,6 +29,13 @@ All core architectural documents, presentation materials, and design specificati
   - [VM Lifecycle State Machine](docs/images/vm-lifecycle.png)
   - [Comprehensive State Transition Graph](docs/images/states.png)
   - [End-to-End Data Flow Diagram](docs/images/data-flow-diagram.png)
+
+### Video Walkthrough
+
+[![Watch the Presentation](https://img.youtube.com/vi/OdcZTjdN268/maxresdefault.jpg)](https://youtu.be/OdcZTjdN268)
+
+▶️ **[Watch the Full Presentation on YouTube](https://youtu.be/OdcZTjdN268)** *(17:57)*  
+*Speakers: Swapnil Chakraborty & Debarghaya Mitra (Team Lead)*
 
 ## Problem in brief
 
