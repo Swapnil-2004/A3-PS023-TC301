@@ -17,8 +17,9 @@ Institute of Engineering and Management, Salt Lake, Kolkata.
 
 ## Documentation & Deliverables
 
-All core architectural documents, presentation materials, and design specifications are located in the [`docs/`](docs/) directory:
+All core architectural documents, presentation materials, and design specifications are located in the [`docs/`](docs/) and [`wiki/`](wiki/) directories:
 
+- 📖 **[Project Wiki Documentation](wiki/Home.md)** – Comprehensive wiki covering [Architecture](wiki/System-Architecture.md), [VM Lifecycle](wiki/VM-Lifecycle-and-State-Machine.md), [API Reference](wiki/API-Reference.md), [Placement](wiki/Placement-and-Resource-Management.md), [Reliability](wiki/Reliability-and-Zero-Orphan-Guarantee.md), and [Testing/Demo](wiki/Development-Testing-and-Demo.md).
 - 📄 **[PS-023: Problem Understanding & Proposed Solution](docs/PS-023-Understanding-and-Proposed-Solution.md)** – Comprehensive technical specification covering the problem breakdown, literature review, state machine design, two-tier API contracts, placement algorithms, failure handling, and pseudocode.
 - 📑 **[Technical Report (PDF)](docs/A3-PS023-TC301.pdf)** – Formal hackathon submission technical report following the prescribed hackathon structure.
 - 📊 **[Hackathon Presentation Deck (PPTX)](docs/A3-PS023-TC301.pptx)** – Executive presentation slides for evaluation and defense.
@@ -110,6 +111,16 @@ A3-PS023-TC301/
       data-flow-diagram.png
       states.png
       vm-lifecycle.png
+  wiki/                                    # GitHub Wiki documentation pages
+    Home.md                                # Wiki landing page
+    System-Architecture.md                 # Deep dive into components & data flow
+    VM-Lifecycle-and-State-Machine.md      # FSM transitions & teardown escalation
+    API-Reference.md                       # Controller, Worker & CH REST schemas
+    Placement-and-Resource-Management.md   # Memory algorithms & cgroup limits
+    Reliability-and-Zero-Orphan-Guarantee.md # Orphan prevention & reconcilers
+    Development-Testing-and-Demo.md        # Test suite, leak checker & demo script
+    _Sidebar.md                            # GitHub Wiki navigation sidebar
+    _Footer.md                             # GitHub Wiki footer
   controller/                              # API, auth, placement, inventory, worker client
   agent/                                   # API, supervisor, ch_client, cgroup, reconciler
   common/                                  # models, auth helpers, config
